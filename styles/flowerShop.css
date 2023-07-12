@@ -1,0 +1,57 @@
+/* common shared font style*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 240px 0px 240px;
+
+}
+
+.site-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800px;
+
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 0px;
+
+}
+
+.description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 634px;
+    font-size: 18px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+
+.primary-button {
+    margin-top: 0px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+
+}
+
+.header-img {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+
+}
